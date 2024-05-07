@@ -1,0 +1,77 @@
+.add-game-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .add-game-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .add-game-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4d4d4d;
+    color: #fff;
+  }
+  
+  .platform-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .platform-checkbox {
+    display: none;
+  }
+  
+  .platform-checkbox + label {
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .platform-checkbox:checked + label {
+    background-color: #ff6b6b;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff4f4f;
+  }

@@ -1,0 +1,69 @@
+.games-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .games-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .game-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .game-item-link {
+    text-decoration: none;
+    width: 450px;
+  }
+
+  .game-item {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 450px;
+    min-height: 400px; /* Add a minimum height to the game item */
+    word-wrap: break-word;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .game-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .game-image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image container */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .game-image:not([src]) {
+    display: none; /* Hide the image if the source is missing */
+  }
+  
+  .game-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+    word-wrap: break-word;
+  }
+  
+  .game-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+  }
